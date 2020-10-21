@@ -12,7 +12,7 @@ To install this color scheme, you can use anyway way.
 Example for  [vim-plug](https://github.com/junegunn/vim-plug#installation)
 
 ```
-Plug '..[https://yourgitbugrepo]..'
+Plug 'https://github.com/Estasleyendoesto/Goblin-plus.git'
 ```
 
 
@@ -46,6 +46,5 @@ At this time `minimalist` is looks beautiful & focused on:
 
 ## Links
 
-[GitHub](https://github.com/dikiaap/minimalist) ·
+[GitHub](https://github.com/Estasleyendoesto/Goblin-plus.git) ·
 [Vim.org](https://www.vim.org/scripts/script.php?script_id=5490) ·
-[Vim Awesome](https://vimawesome.com/plugin/minimalist-vim)
