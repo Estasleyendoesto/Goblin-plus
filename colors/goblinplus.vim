@@ -1,7 +1,7 @@
-" Goblin+ - A Estasleyendoesto Color Scheme Darker
+" Goblin Plus - A Estasleyendoesto Color Scheme Darker
 "
 " Author:       Goblin <suziq@outlook.es>
-" Repository:   https://github.com/dikiaap/minimalist
+" Repository:   https://github.com/Estasleyendoesto/Goblin-plus.git
 " Version:      1.0
 
 " Support only 256 or full colors
