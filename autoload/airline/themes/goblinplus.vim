@@ -1,7 +1,7 @@
-" Goblin+ - A Estasleyendoesto Color Scheme Darker
+" Goblin Plus - A Estasleyendoesto Color Scheme Darker
 "
 " Author:       Goblin <suziq@outlook.es>
-" Repository:   https://github.com/dikiaap/minimalist
+" Repository:   https://github.com/Estasleyendoesto/Goblin-plus.git
 " Version:      1.0
 
 " Normal Mode
@@ -24,22 +24,5 @@ let s:TE = [ s:WI[0], s:N1[1], s:N1[2], s:N1[3] ]
 " Reverse Mode
 let s:NR = [ s:N2[1], s:N2[0], s:N2[3], s:N2[2], 'bold' ]
 
-let g:airline#themes#minimalist#palette = {}
-
 " Generate
-let g:airline#themes#minimalist#palette.normal   = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
-let g:airline#themes#minimalist#palette.insert   = g:airline#themes#minimalist#palette.normal
-let g:airline#themes#minimalist#palette.visual   = g:airline#themes#minimalist#palette.normal
-let g:airline#themes#minimalist#palette.replace  = g:airline#themes#minimalist#palette.normal
-let g:airline#themes#minimalist#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
-let g:airline#themes#minimalist#palette.normal.airline_warning  = s:WI
-let g:airline#themes#minimalist#palette.normal.airline_error    = s:ER
-let g:airline#themes#minimalist#palette.normal.airline_term     = s:TE
 
-" Accents
-let g:airline#themes#minimalist#palette.accents = { 'red': [ s:ER[1], '', s:ER[3], '' ] }
-
-" CtrlP
-if get(g:, 'loaded_ctrlp', 0)
-    let g:airline#themes#minimalist#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(s:N3, s:N2, s:NR)
-endif
